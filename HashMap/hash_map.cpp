@@ -1,6 +1,6 @@
 #include "hash_map.h"
 
-HashMap::HashMap(int capacity = 7) 
+HashMap::HashMap(int capacity) 
     : capacity{capacity}
     , size{0}
     , load_factor{0.67}
